@@ -1,0 +1,110 @@
+ body{
+	
+	height: 100vh;
+	width: 100vw;
+	
+}
+
+ main{
+	position: relative;
+	height: 50%;
+	width: 70%;
+	top: 12%;
+	left: 15%;
+	border-radius: 5px;
+	background: rgba(109, 74, 74, 0.6);
+	
+}
+
+.h1-style{
+	text-align: center;
+	font-size: 6rem;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: black;
+	text-decoration: important;
+}
+
+.p-style{
+	text-align: center;
+	font-size: 1rem;
+	font-family: cursive;
+	color: #c19376;
+	margin-top: -10px;
+}
+
+form{
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+input{
+	color: black;
+	text-align: center;
+	font-family: unset;
+	border: none;
+	background: #efefef;
+}
+
+.submit-button{
+	background: #d42b2b;
+	color: white;
+	font-size: 1.1rem;
+	border: none;
+}
+
+hr{
+	color: white;
+}
+
+.form-desc{
+	margin-top: 1.5rem;
+	font-weight: 400;
+	color: #c19376;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+#files-container{
+	width: 40%;
+	height: 50%;
+	overflow: auto;
+	background: rgb(0, 0, 0,0.2);
+	margin: auto;
+}
+
+.file{
+	width: 90%;
+	height: 20%;
+	margin: auto;
+	background: black;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.9rem;
+}
+
+.file-name{
+	color: lightgrey;
+	width: 75%;
+}
+
+.file-open-button{
+	
+	width: 4rem;
+	text-align: center;
+}
+
+.file-open-button:hover{
+	opacity: 0.5;
+}
+
+.file-open-button a{
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 0.8rem;
+}
+
+
+
